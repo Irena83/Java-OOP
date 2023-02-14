@@ -15,7 +15,7 @@ public class Ifelse4 {
         int godiste = s.nextInt();
         int godina = 2023;
 
-        if (godina - godiste > +18) {
+        if (godina - godiste >= 18) {
             System.out.println(ime + " " + prezime + " je punoletan. ");
         } else {
             System.out.println(ime + " " + prezime + " nije punoletan. ");
