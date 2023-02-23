@@ -3,6 +3,10 @@ package SwArLo;
 public class Switch2 {
     public static void main(String[] args) {
         String dan = "ponedeljak";
+<<<<<<< HEAD
+=======
+          
+>>>>>>> d6ad539cbe9c15d97170f39a968837e05b1bd37f
 
         switch (dan) {
             case "ponedeljak": System.out.println("Plati racune, idi u nabavku");
