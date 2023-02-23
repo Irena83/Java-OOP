@@ -6,7 +6,7 @@ public class LogicalOp {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
-        System.out.println("Ovo je aplikacija za potvrdjivanje punoletstva. Pratite sledece instrukije.");
+        System.out.println("Ovo je aplikacija za potvrdjivanje punoletstva. Pratite sledece instrukcije.");
         System.out.println("Unesite godinu rodjenja: ");
         int godina = s.nextInt();
         System.out.println("Unesite mesec rodjenja: ");

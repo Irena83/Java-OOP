@@ -2,8 +2,7 @@ package SwArLo;
 
 public class Switch2 {
     public static void main(String[] args) {
-        String dan = "ponedeljak" +
-                "";
+        String dan = "ponedeljak";
 
         switch (dan) {
             case "ponedeljak": System.out.println("Plati racune, idi u nabavku");
