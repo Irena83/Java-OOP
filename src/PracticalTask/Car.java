@@ -21,11 +21,11 @@ public class Car extends Vehicle{
 
         switch (engineType){
             case ELECTRIC:
-                registrationPrice = 10000;
+                registrationPrice = 5000;
                 break;
             case DIESEL:
             case GASOLINE:
-                registrationPrice = 7000;
+                registrationPrice = 10000;
                 break;
             default:
                 System.out.println("Wrong engine type.");

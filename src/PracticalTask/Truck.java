@@ -14,9 +14,9 @@ public class Truck extends Vehicle {
     }
     @Override
     public double calculateRegistrationCost() {
-        int registrationPrice = 15000;
+        int registrationPrice = 10000;
         for (int i = 0; i < getAdditionalTrailers(); i++) {
-            registrationPrice += 17000;
+            registrationPrice += 7000;
         }
         return registrationPrice;
     }
