@@ -13,7 +13,7 @@ public class Motorcycle extends Vehicle{
         if (getEngineSize() < 50){
             int currentYear = LocalDate.now().getYear();
             int motorcycleAge = currentYear - getProductionYear();
-            if (motorcycleAge > 1){
+            if (motorcycleAge < 1){
                 registrationPrice = 2000;
             }
         } else {
